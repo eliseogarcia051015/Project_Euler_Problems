@@ -12,5 +12,6 @@ int main(){
     for (long i=0; i*i < n; i++){
         printf("%ld\n",i);
     }
+    
     return 0;
 }
