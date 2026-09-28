@@ -10,5 +10,6 @@ Find the difference between the sum of the squares of the first one hundred natu
 */
 
 int main(){
+    
     return 0;
 }
