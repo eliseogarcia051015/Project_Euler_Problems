@@ -9,9 +9,15 @@ What is the largest prime factor of the number 600851475143?
 int main(){
     //long n = 600851475143;
     long n = 25;
-    for (long i=0; i*i < n; i++){
-        printf("%ld\n",i);
+    long largest_factor=0;
+    for (long i=2; i*i < n; i++){
+        while (n%i == 0){
+            largest_factor =i;
+            n/=i;
+        }
     }
+
+    //finish implementations
     
     return 0;
 }
